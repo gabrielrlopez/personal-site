@@ -48,7 +48,7 @@
     <!-- Overlay Text -->
     <section class="section-b" id="section-b">
       <div class="overlay">
-        <div class="section-b-inner" id="section-a"> 
+        <div class="section-b-inner" id="section-a">
           <h3>About Me</h3>
           <p>
             My web development journey started as a hobby. I've always loved the
@@ -113,7 +113,9 @@
             income, living costs & quality of life data in 264+ most creative
             cities in the world.
           </p>
-          <a href="https://unruffled-hypatia-841bce.netlify.app/" target="_blank"
+          <a
+            href="https://unruffled-hypatia-841bce.netlify.app/"
+            target="_blank"
             ><i class="fas fa-external-link-alt"></i
           ></a>
           <a href="https://github.com/gabrielrlopez/city-score" target="_blank">
@@ -143,44 +145,45 @@
             <i class="fab fa-github"></i
           ></a>
         </div>
-        <img src="images/reco.PNG" alt="reco" class="desktop"/>
+        <img src="images/reco.PNG" alt="reco" class="desktop" />
       </div>
     </section>
 
     <section class="section-e" id="section-e">
       <div class="container">
         <h1>Get In Touch</h1>
-        <div class="email-form">
-          <span class="form-control-wrap">
-            <input
-              type="text"
-              name="company"
-              id="company"
-              size="40"
-              class="form-control"
-              placeholder="company"
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              size="40"
-              class="form-control"
-              placeholder="email"
-            />
-            <input
-            type="text"
-            name="message"
-            id="message"
-            size="40"
-            class="form-control"
-            placeholder="message"
-            />
-          </span>
-          <button type="submit" class="form-control submit">
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        </div>
+        <form data-netlify="true" method="POST" name="email-form">
+          <div class="email-form">
+            <span class="form-control-wrap">
+              <input
+                type="text"
+                name="company"
+                id="company"
+                size="40"
+                class="form-control"
+                placeholder="company"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                size="40"
+                class="form-control"
+                placeholder="email"
+              />
+              <input
+                type="text"
+                name="message"
+                id="message"
+                size="40"
+                class="form-control"
+                placeholder="message"
+              />
+            </span>
+            <button type="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
         </form>
       </div>
     </section>
