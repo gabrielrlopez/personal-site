@@ -314,6 +314,11 @@ img {
 
 .mobile {
   display: none;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.container > img {
+  box-shadow: 10px 10px 5px grey;
 }
 
 /* Media Queries */
